@@ -15,6 +15,7 @@ student_num=1
 while(condition):
     
     student_info=input("Enter Student Information for student #{} in the following format(Name Age Contact_Number E-Mail_ID):".format(student_num))
+    #split
     student_info_list=student_info.split(' ')
     print("\nThe entered information is-\nName: {}\nAge: {}\nContact_Number: {}\nE-Mail_ID:{}".format(student_info_list[0],student_info_list[1],student_info_list[2],student_info_list[3]))
     choice_check=input("Is the entered information correct?(yes/no):")
